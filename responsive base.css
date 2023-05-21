@@ -1,0 +1,116 @@
+body {
+	background-color: #dbfafa28;
+}
+.todo{
+	font-family: 'IBM Plex Mono', monospace;
+
+}
+.responsive{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.entrada {
+	width: 65%;
+	margin: 0px 0px;
+	padding: 30px;
+	background-color: #dbfafa28;
+	margin-bottom: 0px;
+	flex:2;
+	min-width: 250px;
+	
+}
+.entrada h1 {
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#oracion {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: none;
+	height: 300px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: 'IBM Plex Mono', monospace;
+	display: flex;
+    justify-content: center;
+	background-color: #dbfafa21;
+}
+.entrada p{
+	font-size: 8px;
+	margin-bottom:5px ;
+	padding: 2px;
+}
+.botones {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+button {
+	padding:  8px;
+	text-align: auto;
+	border-radius: 12px;
+	font-size: 0.8rem;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'IBM Plex Mono', monospace ;
+}
+.Encriptador {
+	background-color: #dbfafa28;
+	margin: auto;
+	border: 2px solid #03311294;
+	width: 30%;
+}
+.desencriptador {
+	background-color: #dbfafa28;
+	border: 2px solid #3f040496;
+	margin: auto;
+	width: 40%;
+	
+}
+#copiar {
+	background-color: #fef7f3;
+	border: 2px solid #3f040496;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	padding: 10px auto;
+	opacity: 0;
+	transition: 600ms;
+}
+button:hover {
+	opacity: 0.8;
+	transition: 500ms;
+	
+}
+.salida{
+	width: 35%;
+	margin: auto 5% 5% 5%;
+	padding: 20px;
+	height: 350px;
+	border-radius: 30px;
+	background-color: #fef7f3;
+	box-shadow: 2px 2px 2px 2px #f8cfb8;
+	flex:1;
+}
+#textosal {
+	width: 100%;
+	padding: 0px 18px 0px 0px;
+	margin-left: -10px;
+	height: 85%;
+	resize: vertical;
+	background-color: #fef7f3;
+	text-align: center;
+	border-radius: 15px;
+	background-image: url(./IMG/tomatada.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	border: none; 
+	transition: 600ms;
+}
+
+}

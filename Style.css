@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+	background-color: #dbfafa28;
+}
+.todo{
+	font-family: 'Josefin Sans', sans-serif;
+}
+button:hover {
+	opacity: 0.8;
+	transition: 500ms;	
+}
+
+
+@media only screen and (max-width: 767px) { 
+
+.responsive{
+	width: 90%;
+	height: 92vh;	
+	margin: 5vh 1rem 0rem 1rem ;
+}
+.entrada {
+	height: 70%;
+	margin: 0px 0px 0px 0px;
+	background-color: #dbfafa28;
+	flex:2;
+	min-width: 250px;	
+}
+
+.entrada h1 {
+	text-align: left;
+	margin-bottom: 2vh;
+	font-size: 5vw;
+
+}
+
+#oracion {
+	width: 100%;
+	padding: 5%;
+	box-sizing: border-box;
+	border: none;
+	height: 70%;
+	border-radius: 4px;
+	font-size: 5.5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: #dbfafa21;
+}
+.entrada p{
+	font-size: 3.5vw;
+	margin-bottom:0 ;
+	padding: 2px;
+}
+.botones {
+	margin: auto;
+}
+button {
+	padding:  1vw;
+	text-align: center;
+	border-radius: 3vh;
+	font-size: 4vw;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Encriptador {
+	background-color: #03311294;
+	border:none;
+	width: 80%;
+	height: 5vh;
+	margin: 5% 0% 0% 10%;
+
+}
+
+.desencriptador {
+	background-color: #3f040496;
+	border: none;
+	height: 5vh;
+	margin: 0% 0% 0% 10%;
+	width: 80%;	
+	display: block;
+	margin-top: 0.4rem;
+}
+
+#copiar {
+	background-color: #fef6f1;
+	border: 2px solid #3d0e0662;
+	box-shadow: 1px 1px 1px 1px #f8cfb8;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	padding: 10px auto;
+	opacity: 0;
+	transition: 600ms;
+}
+
+.salida{
+	margin-top: 3vh;
+	padding: 20px;
+	height: 20%;
+	border-radius: 30px;
+	background-color: #fef6f1;
+	box-shadow: 2px 2px 2px 2px #f8cfb8;
+	flex:1;
+}
+#textosal {
+	width: 100%;
+	padding: 0px 18px 0px 0px;
+	font-size: 3.5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: -10px;
+	height: 85%;
+	resize: vertical;
+	background-color: #fef7f3;
+	text-align: left;
+	background-image: url(./IMG/tomatel.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+	border: none; 
+	transition: 600ms;
+}
+}
+@media only screen and (max-width: 960px) and (orientation:landscape) { 
+
+.responsive{
+	display: flex;
+	flex-wrap: wrap;
+	height: 85vh;	
+}
+
+.entrada {
+	width: 65%;
+	margin: 0px 0px;
+	padding: 5vh;
+	background-color: #dbfafa28;
+	margin-bottom: 0px;
+	flex:2;
+}
+
+.entrada h1 {
+	text-align: left;
+	margin-bottom: 3vh;
+	font-size: 1.8vw;
+}
+
+#oracion {
+	width: 100%;
+	padding: 5%;
+	margin-bottom: 2%;
+	box-sizing: border-box;
+	border: none;
+	height: 80%;
+	border-radius: 4px;
+	font-size: 2vw;
+	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: #dbfafa21;
+}
+.entrada p{
+	font-size: 1.2vw;
+	margin-bottom:1.5vh ;
+	padding: 0.8vh;
+}
+.botones {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+button {
+	padding:  1vh;
+	text-align: auto;
+	border-radius: 12px;
+	font-size: 1.4vw;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'IBM Plex Mono', monospace ;
+}
+.Encriptador {
+	background-color: #dbfafa28;
+	margin: auto;
+	border: 2px solid #03311294;
+	width: 30%;
+}
+
+.desencriptador {
+	background-color: #dbfafa28;
+	border: 2px solid #3f040496;
+	margin: auto;
+	width: 40%;	
+}
+
+#copiar {
+	background-color: #fef7f3;
+	border: 2px solid #3f040496;
+	width: 80%;
+	text-align: center;
+	margin: auto ;
+	padding: 10px auto;
+	opacity: 0;
+	transition: 600ms;
+}
+
+.salida{
+	width: 35%;
+	margin:4vh 4vh 0em 0em;
+	padding: 4vh;
+	height: 95%;
+	border-radius: 30px;
+	background-color: #fef7f3;
+	box-shadow: 2px 2px 2px 2px #f8cfb8;
+	flex:1;
+}
+#textosal {
+	width: 100%;
+	padding: 0px 18px 0px 0px;
+	font-size: 1.5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: -10px;
+	height: 95%;
+	resize: vertical;
+	background-color: #fef7f3;
+	text-align: left;
+	background-image: url(./IMG/tomatada.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	border: none; 
+	transition: 600ms;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation:portrait) {
+#oscuro{
+	margin-top: 4vh; 
+	margin-right: 4vh;
+	font-size: 4vw;
+}
+.responsive{
+	width: 90%;
+	height: 100vh;	
+	margin: 7vh 2rem 0rem 2rem ;
+}
+.entrada {
+	height: 60%;
+	margin: 0px 0px 0px 0px;
+	background-color: #dbfafa28;
+	margin-bottom: 0%;
+	flex:2;
+	min-width: 250px;	
+}
+.entrada h1 {
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 3vw;
+	display: none;
+}
+#oracion {
+	width: 100%;
+	padding: 5%;
+	box-sizing: border-box;
+	border: none;
+	height: 80%;
+	border-radius: 4px;
+	font-size: 4vw;
+	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+    justify-content: center;
+	background-color: #dbfafa21;
+}
+.entrada p{
+	font-size: 2.4vw;
+	margin-bottom:2vh ;
+	padding: 2px;
+}
+.botones {
+	display: flex;
+	flex-direction: row;
+	margin:  0 auto;
+}
+button {
+	padding:  1vw;
+	text-align: auto;
+	border-radius: 1vh;
+	font-size: 3vw;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Encriptador {
+	background-color: #03311294;
+	border:none;
+	margin: 0 auto;
+	width: 40%;
+	height: 3.8vh;
+	margin-top: 0.4rem;
+}
+
+.desencriptador {
+	background-color: #3f040496;
+	border: none;
+	margin: 0 auto;
+	height: 3.8vh;
+	width: 40%;	
+	margin-top: 0.4rem;
+}
+
+#copiar {
+	background-color: #fef6f1;
+	border: 2px solid #3d0e0662;
+	box-shadow: 1px 1px 1px 1px #f8cfb8;
+	width: 30%;
+	text-align: center;
+	margin: 0px 2rem 2rem auto;
+	padding: 10px auto;
+	opacity: 0;
+	transition: 600ms;
+}
+
+.salida{
+	padding: 20px;
+	height: 25%;
+	border-radius: 30px;
+	background-color: #fef6f1;
+	box-shadow: 2px 2px 2px 2px #f8cfb8;
+	flex:1;
+}
+#textosal {
+	width: 100%;
+	padding: 0px 18px 0px 0px;
+	font-size: 3.5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: -10px;
+	height: 85%;
+	resize: vertical;
+	background-color: #fef7f3;
+	text-align: left;
+	background-image: url(./IMG/tomatel.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	border: none; 
+	transition: 600ms;
+}
+}
+@media only screen and (min-width: 1024px) {
+#oscuro{
+	margin-top: 2vh; 
+	margin-right: 4vh;
+	font-size: 3vw;
+}
+
+.responsive{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;	
+}
+
+.entrada {
+	width: 65%;
+	margin: 0px 0px;
+	padding: 30px;
+	background-color: #dbfafa28;
+	margin-bottom: 0px;
+	flex:2;
+	min-width: 250px;	
+}
+
+.entrada h1 {
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 1.8vw;
+}
+
+#oracion {
+	width: 100%;
+	padding: 5%;
+	margin-bottom: 2%;
+	box-sizing: border-box;
+	border: none;
+	height: 80%;
+	border-radius: 4px;
+	font-size: 2vw;
+	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+    justify-content: center;
+	background-color: #dbfafa21;
+}
+.entrada p{
+	font-size: 1.2vw;
+	margin-bottom:5px ;
+	padding: 2px;
+}
+.botones {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+button {
+	padding:  1vw;
+	text-align: auto;
+	border-radius: 12px;
+	font-size: 1.2vw;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'IBM Plex Mono', monospace ;
+}
+.Encriptador {
+	background-color: #dbfafa28;
+	margin: auto;
+	border: 2px solid #03311294;
+	width: 30%;
+}
+
+.desencriptador {
+	background-color: #dbfafa28;
+	border: 2px solid #3f040496;
+	margin: auto;
+	width: 40%;	
+}
+
+#copiar {
+	background-color: #fef7f3;
+	border: 2px solid #3f040496;
+	width: 80%;
+	text-align: center;
+	margin: auto ;
+	padding: 10px auto;
+	opacity: 0;
+	transition: 600ms;
+}
+
+.salida{
+	width: 35%;
+	margin:3em 3em 0em 0em;
+	padding: 4vh;
+	height: 80%;
+	border-radius: 30px;
+	background-color: #fef7f3;
+	box-shadow: 2px 2px 2px 2px #f8cfb8;
+	flex:1;
+}
+#textosal {
+	width: 100%;
+	padding: 0px 18px 0px 0px;
+	font-size: 1.5vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: -10px;
+	height: 95%;
+	resize: vertical;
+	background-color: #fef7f3;
+	text-align: left;
+	background-image: url(./IMG/tomatada.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	border: none; 
+	transition: 600ms;
+}
+}
