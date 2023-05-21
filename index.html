@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encriptador de texto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<script src="logica.js"></script>
+	<script src="https://kit.fontawesome.com/fbef9f7590.js" crossorigin="anonymous"></script>
+</head>
+<body class= "todo" id="modo"> 
+	<section class="responsive">
+		<section class="entrada">
+			<h1 class="tiutlo">Encriptador de texto</h1>
+			<textarea placeholder="Ingrese el texto aqui" id="oracion" ></textarea>
+			<p>&#9822;ingrese solo letras minusculas sin acento</p>
+			<div class="botones" >
+				<button class="Encriptador" onclick="encriptar()">Encriptar</button>
+				<button class="desencriptador" onclick="desencriptar()">Desencriptar</button>
+			</div >
+		</section>
+		<section class="salida">
+			<textarea id="textosal" placeholder="Texto encriptado/desencriptado" readonly> </textarea>
+			<div class="botones">
+				<button id="copiar" onclick="copiarTexto()">Copiar</button>
+			</div >
+		</section>
+	</section>
+</body>
+	
